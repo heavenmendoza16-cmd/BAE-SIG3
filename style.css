@@ -557,3 +557,23 @@ footer { background:#168fbd; color:#fff; padding:20px; margin-top:35px; }
     color: #ffffff !important;
 }
 
+.read-more-btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #0788c5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background-color: #056b9b;
+    color: white;
+}
