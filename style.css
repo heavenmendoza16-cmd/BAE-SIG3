@@ -535,3 +535,25 @@ footer { background:#168fbd; color:#fff; padding:20px; margin-top:35px; }
 #nav a:hover {
     color: #ffdf00 !important;
 }
+
+/* BLUE READ MORE BUTTON */
+.news-card .card-content > a:last-child,
+.read-more {
+    display: inline-block !important;
+    background-color: #087fba !important;
+    color: #ffffff !important;
+    padding: 9px 16px !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    border-radius: 3px !important;
+    margin-top: 5px;
+    transition: background 0.2s ease;
+}
+
+.news-card .card-content > a:last-child:hover,
+.read-more:hover {
+    background-color: #05618f !important;
+    color: #ffffff !important;
+}
+
