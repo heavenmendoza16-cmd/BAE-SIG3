@@ -640,3 +640,43 @@ footer { background:#168fbd; color:#fff; padding:20px; margin-top:35px; }
         grid-template-columns: 1fr;
     }
 }
+
+.comments-section {
+    max-width: 750px;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.comments-section h2 {
+    color: #0d3852;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.comments-section p {
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+    .comments-section {
+        width: 94%;
+        padding: 15px;
+    }
+}
+
+
+/* GISCUS REACTION SIZE */
+.giscus-frame {
+    min-height: 300px;
+}
+
+.comments-section .giscus {
+    font-size: 15px;
+}
